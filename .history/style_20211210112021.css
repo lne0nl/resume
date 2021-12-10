@@ -101,14 +101,3 @@ li {
   width: 40px;
   height: 40px;
 }
-
-.frameworks {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0;
-  font-size: 11px;
-}
-
-.framework {
-  text-align: center;
-}

@@ -27,6 +27,10 @@ h2 {
   text-transform: uppercase;
 }
 
+h3 {
+  text-decoration: underline;
+}
+
 a {
   text-decoration: underline;
   color: inherit;

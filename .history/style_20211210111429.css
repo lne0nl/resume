@@ -62,7 +62,6 @@ li {
 
 .interests {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -75,7 +74,7 @@ li {
 }
 
 .pad {
-  height: 35px;
+  height: 30px;
 }
 
 .book {
@@ -88,27 +87,4 @@ li {
 
 .note {
   height: 30px;
-}
-
-.skills {
-  font-size: 11px;
-  display: flex;
-}
-
-.logo {
-  display: block;
-  margin-right: 5px;
-  width: 40px;
-  height: 40px;
-}
-
-.frameworks {
-  display: flex;
-  justify-content: space-between;
-  margin: 10px 0;
-  font-size: 11px;
-}
-
-.framework {
-  text-align: center;
 }

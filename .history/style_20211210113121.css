@@ -91,6 +91,7 @@ li {
 }
 
 .skills {
+  margin-bottom: 10px;
   font-size: 11px;
   display: flex;
 }
@@ -107,8 +108,4 @@ li {
   justify-content: space-between;
   margin: 10px 0;
   font-size: 11px;
-}
-
-.framework {
-  text-align: center;
 }
