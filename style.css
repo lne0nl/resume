@@ -1,12 +1,15 @@
 html {
-  background-color: grey;
+  box-sizing: border-box;
+  background-color: #f1efef;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
   margin: 0 auto;
-  padding: 2rem 4rem;
-  max-width: 1280px;
-  background-color: #f1efef;
+  max-width: 1080px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -15,12 +18,13 @@ header {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 0.8;
   text-transform: uppercase;
 }
 
 h2 {
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -43,11 +47,6 @@ a:visited {
   color: inherit;
 }
 
-.bio {
-  padding-top: 2rem;
-  line-height: 1.5;
-}
-
 ul {
   list-style: none;
   margin: 0;
@@ -60,68 +59,61 @@ li {
 
 .core {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .resume {
   flex: 1;
-  /* background-color: yellow; */
+  padding-left: 20px;
 }
 
 .interests {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
 .interests img {
   margin-bottom: 0;
+  margin-right: 10px;
 }
 
 .cat {
-  height: 35px;
-}
-
-.pad {
-  height: 30px;
-}
-
-.book {
-  height: 35px;
-}
-
-.glove {
-  height: 35px;
-}
-
-.note {
   height: 25px;
 }
 
+.pad {
+  height: 20px;
+}
+
+.book {
+  height: 25px;
+}
+
+.glove {
+  height: 25px;
+}
+
+.note {
+  height: 20px;
+}
+
 .skills {
-  font-size: 11px;
   display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 11px;
 }
 
 .logo {
-  display: block;
+  width: 30px;
+  height: 30px;
   margin-right: 5px;
-  width: 40px;
-  height: 40px;
 }
 
 .frameworks {
-  display: flex;
   justify-content: space-between;
   margin: 10px 0;
   font-size: 11px;
-}
-
-.framework {
-  text-align: center;
-}
-
-.resume {
-  padding-left: 50px;
 }
 
 .role {
