@@ -21,10 +21,17 @@ h1 {
 }
 
 h2 {
+  text-transform: uppercase;
+}
+
+.infos h2 {
   text-align: right;
   position: absolute;
   top: 4rem;
-  text-transform: uppercase;
+}
+
+.resume h2 {
+  border-bottom: 3px solid black;
 }
 
 a {
@@ -71,23 +78,23 @@ li {
 }
 
 .cat {
-  height: 40px;
-}
-
-.pad {
   height: 35px;
 }
 
+.pad {
+  height: 30px;
+}
+
 .book {
-  height: 40px;
+  height: 35px;
 }
 
 .glove {
-  height: 40px;
+  height: 35px;
 }
 
 .note {
-  height: 30px;
+  height: 25px;
 }
 
 .skills {
@@ -111,4 +118,27 @@ li {
 
 .framework {
   text-align: center;
+}
+
+.resume {
+  padding-left: 50px;
+}
+
+.role {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-title h3 {
+  margin: 0;
+  padding-right: 20px;
 }
