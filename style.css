@@ -148,6 +148,10 @@ li {
   padding-right: 20px;
 }
 
+.project-description {
+  font-style: italic;
+}
+
 @media (max-width: 768px) {
   header,
   .infos,
@@ -169,6 +173,5 @@ li {
 
   .project-description {
     width: 100%;
-    font-style: italic;
   }
 }
